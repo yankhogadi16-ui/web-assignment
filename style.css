@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f58e2f;
+    color:#222;
+}
+
+.site-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+
+.site-nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
