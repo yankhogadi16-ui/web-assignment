@@ -100,3 +100,6 @@ body{
 .dark-mode .stat{
     background-color: #444;
 }
+html{
+    scroll-behavior: smooth;
+}
