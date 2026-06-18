@@ -27,3 +27,68 @@ body{
     list-style:none;
     gap:30px;
 }
+.site-nav a{
+    text-decoration:none;
+    color:#222;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.site-nav a:hover{
+    color:white;
+}
+
+
+.profile{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 8%;
+    min-height:80vh;
+}
+.btn{
+    display:inline-block;
+    background:#222;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+    margin-bottom:40px;
+}
+
+.btn:hover{
+    background:white;
+    color:#222;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+}
+
+.stat{
+    background:#222;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    min-width:150px;
+    text-align:center;
+}
+
+.stat h2{
+    margin-bottom:10px;
+}
+
+.hero-image-wrapper{
+    margin-left:40px;
+}
+
+.profile-image{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
